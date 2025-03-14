@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family:"Poppins", sans-serif;
+}
+header, footer{
+    background-color: rgb(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    margin: 40px;
+    font-size: 20px;
+    border-radius: 40px;
+}
+header{
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo{
+    font-size: 32px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.imagem{
+    display: grid;
+    align-content: center;
+}
+.imagem img{
+    max-width: 40.36vh;
+    border-radius: 100%;
+   
+}
+.comp{
+    font-size: 18px;
+    font-weight: 600;
+    color: #555555;
+}
+.subtitulo{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+}
+.nome, .titulo{
+    font-size: 48px;
+    color: #000000;
+    font-weight: 600;
+}
+.titulo2{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+}
+.atividade{
+    font-size: 28px;
+    font-weight: 600;
+    color:#555555;
+}
+.conteudo{
+    font-size: 25px;
+    font-weight: 400;
+    color:#000000;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.btn{
+    font-size: 13px;
+    border-radius: 40px;
+    padding: 15px;
+    width: 160px;
+}
+.buttons img{
+    width: 30px;
+}
+.borda{
+    border: 1px solid #cacaca;
+    border-radius: 40px;
+}
+.section{
+    min-height: 850px;
+    gap: 10px;
+}
+.section .icon{
+    width: 30px;
+}
+.card{
+    border: 1px solid #cacaca;
+    box-shadow: 1px 5px 10px 3px #d8d8d8;
+    border-radius: 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    transition: all 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 1px 5px 10px 5px #a8a8a8;
+}
+.card img{
+    border-radius: 40px;
+    width: 75.229vh;
+    max-width: 350px;
+}
+
+.contato{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 600px;
+    min-height: 80px;
+    padding: 20px;
+    margin-top: 70px;
+}
+.contato img{
+    width: 40px;
+}
+.section2{
+    margin-top: 40px;
+    height: 450px;
+    gap: 10px;
+}
+.destaque{
+    color: #212529;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.btnHeader{
+    padding: 10px;
+    color: white;
+}
+.menu-icon button{
+    background-color: transparent;
+    border: none;
+}
+.subir{
+    position: fixed;
+    right: 35px;
+    bottom: 20px;
+}
+.subir button{
+    background-color: transparent;
+    border: none;
+}
+.cardTech{
+    border: 1px solid #cacaca;
+    box-shadow: 1px 5px 10px 3px #d8d8d8;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    min-width: 158px;
+    transition: all 0.5s ease;
+}
+.cardTech:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 5px 10px 5px #a8a8a8;
+}
