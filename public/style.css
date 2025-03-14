@@ -147,6 +147,7 @@ a{
 }
 .subir{
     position: fixed;
+    z-index: 1;
     right: 35px;
     bottom: 20px;
 }
