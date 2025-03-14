@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
 </head>
-<body id="inicio" class="container gap-4">
+
+<body id="inicio" class="gap-4">
 
     <header class="py-3 px-4 header">
 
@@ -33,21 +34,21 @@
             <a class="borda destaque" href="#contato">Contato</a>
         </div>
     </header>
-    <main>
+    <main class="container">
         <div style="margin-top: 19vh;" class="d-xl-flex gap-5 justify-content-center section">
             <div class="imagem justify-content-center"><img src="assets/Perfil (2).jpg" alt="foto"></div>
             <div class="apresentacao d-flex flex-column justify-content-center text-xl-start text-center gap-3"><span
                     class="comp">Olá, eu me chamo</span><span class="nome">Lucas Dias</span><span
                     class="atividade">Desenvolvedor Back-End</span>
-                <div class="buttons"><a href="assets/Lucas Dias-Curriculo.pdf"
-                        download="Lucas Dias - Curriculo.pdf" class="btn btn-outline-dark">Download CV</a><button
-                        type="button" onclick="window.location='#contato'" class="btn btn-dark">Entrar em
+                <div class="buttons"><a href="assets/Lucas Dias-Curriculo.pdf" download="Lucas Dias - Curriculo.pdf"
+                        class="btn btn-outline-dark">Download CV</a><button type="button"
+                        onclick="window.location='#contato'" class="btn btn-dark">Entrar em
                         Contato</button></div>
                 <div class="buttons"><a href="https://www.linkedin.com/in/lucasphillipe/"><img src="assets/linkedin.png"
                             alt="linkedin"></a><a href="https://github.com/LucasDias2002"><img src="assets/github.png"
                             alt="github"></a></div>
-                        </div>
-                    </div>
+            </div>
+        </div>
 
         <div id="sobre" class="d-flex flex-column text-center">
             <span class="subtitulo">Saiba mais</span>
@@ -61,11 +62,13 @@
                 Abaixo estão algumas das tecnologias que tenho trabalhado: </p>
             <div class="d-flex justify-content-center gap-3 my-5 flex-wrap py-2">
                 <div class="cardTech">
-                    <img width="96" height="96" src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="html-5--v1" />
+                    <img width="96" height="96" src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
+                        alt="html-5--v1" />
                     <span class="compW">Java</span>
                 </div>
                 <div class="cardTech">
-                    <img width="96" height="96" src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="html-5--v1" />
+                    <img width="96" height="96" src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000"
+                        alt="html-5--v1" />
                     <span class="compW">Spring</span>
                 </div>
                 <div class="cardTech">
@@ -85,7 +88,11 @@
                 </div>
                 <div class="cardTech">
                     <img width="96" height="96" src="https://img.icons8.com/?size=100&id=38561&format=png&color=000000"
-                        alt="mysql-logo" /><span class="compW">Postgres</span>
+                        alt="postgres-logo" /><span class="compW">Postgres</span>
+                </div>
+                <div class="cardTech">
+                    <img width="96" height="96" src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
+                        alt="git-logo" /><span class="compW">Git</span>
                 </div>
                 <div class="cardTech">
                     <img width="96" height="96" src="https://img.icons8.com/color/96/html-5--v1.png" alt="html-5--v1" />
@@ -113,30 +120,26 @@
                 <div class="card gap-4 text-center">
                     <img src="assets/mysalesApi.png" alt="">
                     <span class="atividade">My Sales API - Java/Spring</span>
-                    <div class="buttons"><a
-                        href="https://github.com/LucasDias2002/mysales-plataform" type="button"
-                        class="btn btn-dark">Github</a></div>
+                    <div class="buttons"><a href="https://github.com/LucasDias2002/mysales-plataform" type="button"
+                            class="btn btn-dark">Github</a></div>
                 </div>
                 <div class="card gap-4 text-center">
                     <img src="assets/casacidada.png" alt="">
                     <span class="atividade">Site Casa Cidadã ONG - JavaScript/Node</span>
-                    <div class="buttons"><a
-                            href="https://github.com/LucasDias2002/CasaCidada-Publico" type="button"
+                    <div class="buttons"><a href="https://github.com/LucasDias2002/CasaCidada-Publico" type="button"
                             class="btn btn-dark">Github</a></div>
                 </div>
                 <div class="card gap-4 text-center">
                     <img src="assets/theplay.png" alt="">
                     <span class="atividade">The Play -<br> Java/POO</span>
-                    <div class="buttons"><a
-                        href="https://github.com/LucasDias2002/ThePlay" type="button"
-                        class="btn btn-dark">Github</a></div>
+                    <div class="buttons"><a href="https://github.com/LucasDias2002/ThePlay" type="button"
+                            class="btn btn-dark">Github</a></div>
                 </div>
                 <div class="card gap-4 text-center">
                     <img src="assets/blogPHP.png" alt="">
                     <span class="atividade">Blog CRUD - PHP/MySQL</span>
-                    <div class="buttons"><a
-                        href="https://github.com/LucasDias2002/Blog" type="button"
-                        class="btn btn-dark">Github</a></div>
+                    <div class="buttons"><a href="https://github.com/LucasDias2002/Blog" type="button"
+                            class="btn btn-dark">Github</a></div>
                 </div>
             </div>
         </div>
@@ -163,21 +166,22 @@
         </div>
     </main>
 
-    <footer class="p-3">
-        <div class="d-flex gap-4 justify-content-center px-2">
-            <a class="btnHeader" href="#inicio">Inicio</a>
-            <a class="btnHeader" href="#sobre">Sobre mim</a>
-            <a class="btnHeader" href="#projetos">Projetos</a>
-        </div>
-        <p style="color:white; font-size: 2vh;" class="text-center py-3">Copyright © 2025 Lucas Dias. Todos os direitos reservados.</p>
-    </footer>
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <script src="script.js"></script>
-    </body>
-    <div class="subir">
-        <button onclick="Subir()"><img src="assets/icons-slideUp.png" alt="butão de subir"></button>
+    <script src="script.js"></script>
+</body>
+<footer class="p-3">
+    <div class="d-flex gap-4 justify-content-center px-2">
+        <a class="btnHeader" href="#inicio">Inicio</a>
+        <a class="btnHeader" href="#sobre">Sobre mim</a>
+        <a class="btnHeader" href="#projetos">Projetos</a>
     </div>
+    <p style="color:white; font-size: 2vh;" class="text-center py-3">Copyright © 2025 Lucas Dias. Todos os direitos
+        reservados.</p>
+</footer>
+<div class="subir">
+    <button onclick="Subir()"><img src="assets/icons-slideUp.png" alt="butão de subir"></button>
+</div>
+
 </html>
