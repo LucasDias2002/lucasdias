@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-*{
-    font-family:"Poppins", sans-serif;
+* {
+    font-family: "Poppins", sans-serif;
 }
-header, footer{
+
+main, footer {
+    opacity: 0;
+    animation: slideUp 1s ease-out both;
+}
+
+header,
+footer {
     background-color: rgb(0, 0, 0, 0.85);
     backdrop-filter: blur(10px);
     margin: 15px;
     font-size: 2vh;
     border-radius: 40px;
 }
-header{
+
+header {
     position: fixed;
     background-color: rgb(0, 0, 0, 0.85);
     backdrop-filter: blur(10px);
@@ -19,80 +27,100 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    opacity: 0;
+    animation: slideDown 1s ease-out forwards;
 }
-.logo{
+
+.logo {
     font-size: 4vh;
     color: white;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-.imagem{
+
+.imagem {
     display: grid;
     align-content: center;
 }
-.imagem img{
+
+.imagem img {
     max-width: 40.36vh;
     border-radius: 100%;
-   
+
 }
-.comp{
+
+.comp {
     font-size: 18px;
     font-weight: 600;
     color: #555555;
 }
-.subtitulo{
+
+.subtitulo {
     font-size: 16px;
     font-weight: 400;
     color: #555555;
 }
-.nome, .titulo{
+
+.nome,
+.titulo {
     font-size: 48px;
     color: #000000;
     font-weight: 600;
 }
-.titulo2{
+
+.titulo2 {
     font-size: 16px;
     color: #000000;
     font-weight: 600;
 }
-.atividade{
+
+.atividade {
     font-size: 28px;
     font-weight: 600;
-    color:#555555;
+    color: #555555;
 }
-.conteudo{
+
+.conteudo {
     font-size: 25px;
     font-weight: 400;
-    color:#000000;
+    color: #000000;
 }
-.buttons{
+
+.buttons {
     display: flex;
     gap: 10px;
     justify-content: center;
 }
-.btn{
+
+.btn {
     font-size: 13px;
     border-radius: 40px;
     padding: 15px;
     width: 160px;
 }
-.buttons img{
+
+.buttons img {
     width: 30px;
 }
-.borda{
+
+.borda {
     border: 1px solid #cacaca;
     border-radius: 40px;
 }
-.section{
+
+.section {
     min-height: 850px;
     gap: 10px;
 }
-.section .icon{
+
+.section .icon {
     width: 30px;
 }
-.card{
+
+.card {
     border: 1px solid #cacaca;
     box-shadow: 1px 5px 10px 3px #d8d8d8;
     border-radius: 40px;
@@ -103,19 +131,21 @@ a{
     padding: 30px;
     transition: all 0.5s ease;
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.03);
     box-shadow: 1px 5px 10px 5px #a8a8a8;
 }
-.card img{
+
+.card img {
     border-radius: 40px;
     width: 75.229vh;
     max-width: 350px;
 }
 
-.contato{
+.contato {
     display: flex;
-   
+
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -124,38 +154,46 @@ a{
     padding: 20px;
     margin-top: 70px;
 }
-.contato img{
+
+.contato img {
     width: 40px;
 }
-.section2{
+
+.section2 {
     margin-top: 40px;
     height: 450px;
     gap: 10px;
 }
-.destaque{
+
+.destaque {
     color: #212529;
     background-color: #ffffff;
     padding: 10px;
 }
-.btnHeader{
+
+.btnHeader {
     padding: 10px;
     color: white;
 }
-.menu-icon button{
+
+.menu-icon button {
     background-color: transparent;
     border: none;
 }
-.subir{
+
+.subir {
     position: fixed;
     z-index: 1;
     right: 35px;
     bottom: 20px;
 }
-.subir button{
+
+.subir button {
     background-color: transparent;
     border: none;
 }
-.cardTech{
+
+.cardTech {
     border: 1px solid #cacaca;
     box-shadow: 1px 5px 10px 3px #d8d8d8;
     border-radius: 40px;
@@ -166,7 +204,34 @@ a{
     min-width: 158px;
     transition: all 0.5s ease;
 }
-.cardTech:hover{
+
+.cardTech:hover {
     transform: scale(1.1);
     box-shadow: 1px 5px 10px 5px #a8a8a8;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+        /* Começa acima */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+        /* Começa abaixo */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
