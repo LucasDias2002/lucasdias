@@ -7,7 +7,7 @@
 
 main, footer {
     opacity: 0;
-    animation: slideUp 1s ease-out both;
+    animation: slideUp 0.5s ease-out both;
 }
 
 header,
@@ -28,7 +28,7 @@ header {
     left: 0;
     right: 0;
     opacity: 0;
-    animation: slideDown 1s ease-out forwards;
+    animation: slideDown 0.5s ease-out forwards;
 }
 
 .logo {
@@ -183,7 +183,7 @@ a {
 
 .subir {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     right: 35px;
     bottom: 20px;
 }
