@@ -3,7 +3,7 @@
 
 Bem-vindo ao meu portfólio! Este projeto foi criado para trazer visibilidade aos meus projetos pessoais.
 
-Você pode acessar o portfólio online em: [lucasdias.vencel.app](https://lucasdias.vencel.app)
+Você pode acessar o portfólio online em: [lucasdias.vencel.app](https://lucasdias.vercel.app)
 
 ## Tecnologias Utilizadas
 
@@ -46,3 +46,13 @@ Você pode acessar o portfólio online em: [lucasdias.vencel.app](https://lucasd
 ![Seção de Projetos](./public/docs/Projects.png)
 
 ![Seção de Contato](./public/docs/Contact.png)
+
+![Página Inicial Mobile](./public/docs/HomeMobile.jpg)
+
+![Seção Sobre Mim Mobile](./public/docs/AboultMeMobile.jpg)
+
+![Seção de Projetos Mobile](./public/docs/ProjectsMobile.jpg)
+
+![Seção de Projeto Mobile](./public/docs/ProjectMobile.jpg)
+
+![Seção de Projetos Mobile](./public/docs/ContactMobile.jpg)
