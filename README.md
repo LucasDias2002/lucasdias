@@ -47,12 +47,4 @@ Você pode acessar o portfólio online em: [lucasdias.vencel.app](https://lucasd
 
 ![Seção de Contato](./public/docs/Contact.png)
 
-![Página Inicial Mobile](./public/docs/HomeMobile.jpg)
-
-![Seção Sobre Mim Mobile](./public/docs/AboultMeMobile.jpg)
-
-![Seção de Projetos Mobile](./public/docs/ProjectsMobile.jpg)
-
-![Seção de Projeto Mobile](./public/docs/ProjectMobile.jpg)
-
-![Seção de Projetos Mobile](./public/docs/ContactMobile.jpg)
+![Página Inicial Mobile](./public/docs/Mobile.png)
